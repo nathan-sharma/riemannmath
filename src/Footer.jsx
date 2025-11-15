@@ -3,7 +3,7 @@ function Footer() {
     <footer className="bg-gray-900 text-gray-300 py-10 w-full mt-12">
       <div className="max-w-6xl mx-auto text-center px-4">
 
-        <p className="text-lg font-medium tracking-wide">
+        <p className="sm:text-lg font-medium tracking-wide text-sm">
           © {new Date().getFullYear()} Riemann Math — All rights reserved.
         </p>
 

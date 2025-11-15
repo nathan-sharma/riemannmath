@@ -6,14 +6,14 @@ function Navbar() {
 
   return (
     <nav className="bg-white py-6 px-8 w-full sticky top-0 shadow-md">
-      <div className="flex flex-col md:flex-row md:justify-between items-center">
-        {/* Logo and title */}
-        <div className={`flex items-center justify-center md:justify-start space-x-2`}>
+      <div className="flex items-center justify-between w-full">
+        {/* Logo + Title */}
+        <div className="flex items-center space-x-2">
           <Link to="/">
             <img
               src="riemann-math-logo.png"
               alt="Riemann Math Logo"
-              className="h-10" // slightly bigger logo
+              className="h-10"
             />
           </Link>
           <Link to="/" className="text-black font-bold text-2xl">
@@ -21,8 +21,24 @@ function Navbar() {
           </Link>
         </div>
 
-        {/* Hamburger button for mobile */}
-        <div className="md:hidden mt-2">
+        {/* Desktop Menu */}
+        <div className="hidden md:flex md:items-center md:space-x-10">
+          <Link to="/" className="text-black font-semibold text-xl">
+            Home
+          </Link>
+          <Link to="/info-and-about" className="text-black font-semibold text-xl">
+            Info & About
+          </Link>
+          <Link to="/registration" className="text-black font-semibold text-xl">
+            Register
+          </Link>
+          <Link className="text-black font-semibold text-xl">
+            Video Lectures
+          </Link>
+        </div>
+
+        {/* Hamburger for Mobile */}
+        <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-gray-700 hover:text-gray-900 focus:outline-none"
@@ -47,42 +63,40 @@ function Navbar() {
             </svg>
           </button>
         </div>
+      </div>
 
-        {/* Navigation links */}
-        <div
-          className={`${
-            isOpen ? 'block' : 'hidden'
-          } md:flex md:items-center md:space-x-3 w-full md:w-auto mt-2 md:mt-0 justify-center`}
-        >
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="flex flex-col items-center mt-3 space-y-2 md:hidden">
           <Link
             to="/"
-            className="text-black font-semibold hover:text-gray-700 py-2 px-3 text-xl"
             onClick={() => setIsOpen(false)}
+            className="text-black font-semibold text-lg"
           >
             Home
           </Link>
           <Link
             to="/info-and-about"
-            className="text-black font-semibold hover:text-gray-700 py-2 px-3 text-xl"
             onClick={() => setIsOpen(false)}
+            className="text-black font-semibold text-lg"
           >
             Info & About
           </Link>
           <Link
             to="/registration"
-            className="text-black font-semibold hover:text-gray-700 py-2 px-3 text-xl"
             onClick={() => setIsOpen(false)}
+            className="text-black font-semibold text-lg"
           >
             Register
           </Link>
           <Link
-            className="text-black font-semibold hover:text-gray-700 py-2 px-3 text-xl"
             onClick={() => setIsOpen(false)}
+            className="text-black font-semibold text-lg"
           >
             Video Lectures
           </Link>
         </div>
-      </div>
+      )}
     </nav>
   );
 }
