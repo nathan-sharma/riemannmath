@@ -48,7 +48,7 @@ function Info() {
             Classes
           </h1>
           <h2 className="text-lg text-gray-900 mb-4">
-            2026 winter classes are virtual and will be hosted on Zoom beginning January 1st. Each class will last for 90 minutes, and homework will be assigned via Google Classroom. You can find more information on our classes below. Sessions are limited to a maximum of 30 students per class. <span className="font-bold">If you complete at least four homeworks and attend at least five days of lessons, you will receive a certificate of course completion. </span> Not sure which class is right for you? Take this year’s{' '}
+            2026 winter classes are virtual and will be hosted on Zoom beginning December 30th, 2025. Each class will last for 90 minutes, and homework will be assigned via Google Classroom. You can find more information on our classes below. Sessions are limited to a maximum of 30 students per class. <span className="font-bold">If you complete at least four homeworks and attend at least five days of lessons, you will receive a certificate of course completion. </span> Not sure which class is right for you? Take this year’s{' '}
             <a
               href="https://forms.gle/yLL79Dyuw5TWMgRw8"
               target="_blank"
