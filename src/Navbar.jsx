@@ -90,10 +90,11 @@ function Navbar() {
             Register
           </Link>
           <Link
+          to = "/resources"
             onClick={() => setIsOpen(false)}
             className="text-black font-semibold text-lg"
           >
-            Video Lectures
+            Lectures & Resources
           </Link>
         </div>
       )}
