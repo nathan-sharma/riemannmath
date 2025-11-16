@@ -34,7 +34,7 @@ function Register() {
         <h1 className="text-3xl font-bold text-black mb-8 text-center">
           Registration Portal
         </h1>
-        <p className = " mb-5 text-center">The registration portal for winter classes will close on   <span className="font-bold"> December 29th, 2025 at 6:00 PM CST</span>. Please make sure you have reviewed all information on our classes in the About & Info page before registering. After registering, you will receive an email with the link to our Zoom meeting and Google Classroom, as well as detailed information on the course(s) you signed up for.</p>
+        <p className = " mb-5 text-center">The registration portal for winter classes will close on   <span className="font-bold"> December 29th, 2025 at 6:00 PM CST</span>. Please make sure you have reviewed all information on our classes in the About page before registering. After registering, you will receive an email with the link to our Zoom meeting and Google Classroom, as well as detailed information on the course(s) you signed up for.</p>
 
         {/* JotForm iframe */}
         <iframe

@@ -26,14 +26,14 @@ function Navbar() {
           <Link to="/" className="text-black font-semibold text-xl">
             Home
           </Link>
-          <Link to="/info-and-about" className="text-black font-semibold text-xl">
-            Info & About
+          <Link to="/about" className="text-black font-semibold text-xl">
+            About
           </Link>
           <Link to="/registration" className="text-black font-semibold text-xl">
             Register
           </Link>
-          <Link className="text-black font-semibold text-xl">
-            Video Lectures
+          <Link to = "/resources" className="text-black font-semibold text-xl">
+           Lectures & Resources
           </Link>
         </div>
 

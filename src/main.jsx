@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import Register from './Register.jsx';
 import Info from './Info.jsx';
+import Resources from './Resources.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} /> 
         <Route path="/registration" element={<Register />} />
-        <Route path="/info-and-about" element={<Info />} />
+        <Route path="/about" element={<Info />} />
+        <Route path = "/resources" element = {<Resources />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
