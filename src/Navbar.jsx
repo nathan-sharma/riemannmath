@@ -76,11 +76,11 @@ function Navbar() {
             Home
           </Link>
           <Link
-            to="/info-and-about"
+            to="/about"
             onClick={() => setIsOpen(false)}
             className="text-black font-semibold text-lg"
           >
-            Info & About
+            About
           </Link>
           <Link
             to="/registration"
