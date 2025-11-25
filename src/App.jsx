@@ -60,7 +60,7 @@ function App() {
             {/* Left text */}
             <div className="flex-1">
               <p className="text-left text-gray-900 text-xl md:text-3xl leading-snug md:leading-relaxed font-sans">
-                Riemann Math is a <span className="font-bold">completely free</span> math tutoring service based in Katy, Texas made for young students who wish to further explore their interest in math. Our curriculum covers a wide range of advanced concepts, many of which are not taught in the standard high school curriculum.
+                Riemann Math is a <span className="font-bold">completely free</span> math tutoring service based in Katy, Texas made for young math students. Our curriculum covers a wide range of advanced concepts, many of which are not taught in the standard high school curriculum.
               </p>
             </div>
 
