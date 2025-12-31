@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false); // Mobile menu state
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // Dropdown state
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // Desktop dropdown state
+  const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false); // Mobile dropdown state
   const dropdownRef = useRef(null);
 
   // Close dropdown when clicking outside
@@ -20,6 +21,7 @@ function Navbar() {
   const closeMenus = () => {
     setIsOpen(false);
     setIsDropdownOpen(false);
+    setIsMobileDropdownOpen(false);
   };
 
   return (
@@ -97,10 +99,25 @@ function Navbar() {
         <div className="flex flex-col items-center mt-3 pb-4 space-y-4 md:hidden border-t pt-4">
           <Link to="/" onClick={closeMenus} className="text-black font-semibold text-lg">Home</Link>
           
-          <div className="flex flex-col items-center space-y-2">
-            <span className="text-gray-400 text-sm font-bold uppercase tracking-widest">Free Classes</span>
-            <Link to="/about" onClick={closeMenus} className="text-black font-semibold text-lg">About</Link>
-            <Link to="/registration" onClick={closeMenus} className="text-black font-semibold text-lg">Register</Link>
+          {/* Mobile Dropdown Container */}
+          <div className="w-full flex flex-col items-center">
+            <button 
+              onClick={() => setIsMobileDropdownOpen(!isMobileDropdownOpen)}
+              className="flex items-center text-black font-semibold text-lg focus:outline-none"
+            >
+              Free Classes
+              <svg className={`ml-2 h-4 w-4 transition-transform ${isMobileDropdownOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            
+            {/* Conditional Sub-menu for Mobile */}
+            {isMobileDropdownOpen && (
+              <div className="flex flex-col items-center bg-gray-50 w-full py-2 mt-2 space-y-2 rounded-lg">
+                <Link to="/about" onClick={closeMenus} className="text-gray-700 font-medium text-md">About</Link>
+                <Link to="/registration" onClick={closeMenus} className="text-gray-700 font-medium text-md">Register</Link>
+              </div>
+            )}
           </div>
 
           <Link to="/resources" onClick={closeMenus} className="text-black font-semibold text-lg">Resources</Link>

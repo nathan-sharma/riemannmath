@@ -136,9 +136,28 @@ function Info() {
 
 <p>Day 7: Miscellaneous Topics, Review</p>
           </div>
-            <div className="max-w-6xl mx-auto mb-16">
+         
 
-          <h1 className="text-3xl font-bold text-black mb-8 text-left mt-7">
+          </div>
+        </div>
+              <div className="max-w-6xl mx-auto mb-16">
+          <h1 className="text-3xl font-bold text-black mb-6 text-left">
+            Calendar
+          </h1>
+          <div className="w-full flex">
+    <iframe
+      src="https://calendar.google.com/calendar/embed?src=ada628ee0d6342e38f1d968c0b02703461c1de4fe9034bca717e3cc5e1532171%40group.calendar.google.com&ctz=America%2FChicago"
+      style={{ border: 0 }}
+      width="1600"
+      height="1200"
+      frameBorder="0"
+      scrolling="no"
+      className="rounded-lg shadow-lg"
+    ></iframe>
+  </div>
+     <div className="max-w-6xl mx-auto">
+
+          <h1 className="text-3xl font-bold text-black mb-8 text-left mt-15">
             Our Founder
           </h1>
 
@@ -163,24 +182,6 @@ function Info() {
                 className="w-full max-w-sm rounded-lg shadow-lg object-cover"
               />
             </div>
-
-          </div>
-        </div>
-              <div className="max-w-6xl mx-auto mb-16">
-          <h1 className="text-3xl font-bold text-black mb-6 text-left mt-10">
-            Calendar
-          </h1>
-          <div className="w-full flex">
-    <iframe
-      src="https://calendar.google.com/calendar/embed?src=ada628ee0d6342e38f1d968c0b02703461c1de4fe9034bca717e3cc5e1532171%40group.calendar.google.com&ctz=America%2FChicago"
-      style={{ border: 0 }}
-      width="1600"
-      height="1200"
-      frameBorder="0"
-      scrolling="no"
-      className="rounded-lg shadow-lg"
-    ></iframe>
-  </div>
 
         </div>
 
