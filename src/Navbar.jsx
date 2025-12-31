@@ -113,9 +113,9 @@ function Navbar() {
             
             {/* Conditional Sub-menu for Mobile */}
             {isMobileDropdownOpen && (
-              <div className="flex flex-col items-center bg-gray-50 w-full py-2 mt-2 space-y-2 rounded-lg">
-                <Link to="/about" onClick={closeMenus} className="text-gray-700 font-medium text-md">About</Link>
-                <Link to="/registration" onClick={closeMenus} className="text-gray-700 font-medium text-md">Register</Link>
+              <div className="flex flex-col items-center w-full py-2 mt-2 space-y-2 rounded-lg">
+                <Link to="/about" onClick={closeMenus} className="text-black font-medium text-md">About</Link>
+                <Link to="/registration" onClick={closeMenus} className="text-black font-medium text-md">Register</Link>
               </div>
             )}
           </div>
