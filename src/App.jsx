@@ -60,7 +60,7 @@ function App() {
             {/* Left text */}
             <div className="flex-1">
               <p className="text-left text-gray-900 text-xl md:text-3xl leading-snug md:leading-relaxed font-sans">
-                Riemann Math is a <span className = "font-bold">completely free</span> online competitive math tutoring service made for young math students. Our curriculum encompasses a broad range of advanced concepts, helping our students prepare for competitions such as the AMC 8, 10, 12, AIME, MATHCOUNTS, and more!
+                Riemann Math offers <span className = "font-bold">completely free</span> competition math tutoring and resources for young math students. Our classes encompass a broad range of advanced concepts, helping our students prepare for competitions such as the AMC 8, 10, 12, AIME, MATHCOUNTS, and more!
               </p>
             </div>
 

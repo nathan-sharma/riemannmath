@@ -11,36 +11,7 @@ function Info() {
       <div className="flex-1 w-full p-6">
         
         {/* Founder Section */}
-        <div className="max-w-6xl mx-auto mb-16">
-
-          <h1 className="text-3xl font-bold text-black mb-8 text-left mt-7">
-            Our Founder
-          </h1>
-
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
-            
-            {/* LEFT — Text */}
-            <div className="flex-1 text-left">
-              <p className="text-lg leading-relaxed text-gray-900 mb-4">
-                Hi, I’m Nathan Sharma! I first got involved in competitive math when I was in sixth grade. I have competed in the AMC 8, 10, and 12 and represented my school in the Houston MATHCOUNTS Chapter. Though I was enthusiastic about competitive math, I never knew where to start with my preparation. Resources offered online were vague, and competiton math classes costed hundreds if not thousands of dollars. I created Riemann Math to give students what I didn’t have – accessible, high quality math tutoring. I love math, and I wish to share my passion with other young students through this organization.
-              </p>
-
-              <p className="text-lg leading-relaxed text-gray-900">
-                I am currently a sophomore in high school who regularly competes in math competitions. I have recently started averaging 105s on recent mock AMC 12s, and I hope to qualify for the AIME next year and potentially the USAMO my senior year. I am also Vice President of the Cinco Ranch High School Math Honors Society and the Cinco Ranch High School Physics Club. I am currently preparing for the AMC, AIME, CMM, and F=MA competitions.
-              </p>
-            </div>
-
-            {/* RIGHT — Image */}
-            <div className="flex-1 flex justify-center md:justify-center">
-              <img 
-                src="nathan.png"
-                alt="Nathan Sharma"
-                className="w-full max-w-sm rounded-lg shadow-lg object-cover"
-              />
-            </div>
-
-          </div>
-        </div>
+      
 
         {/* Classes Section */}
         <div className="max-w-6xl mx-auto mb-16">
@@ -165,6 +136,36 @@ function Info() {
 
 <p>Day 7: Miscellaneous Topics, Review</p>
           </div>
+            <div className="max-w-6xl mx-auto mb-16">
+
+          <h1 className="text-3xl font-bold text-black mb-8 text-left mt-7">
+            Our Founder
+          </h1>
+
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
+            
+            {/* LEFT — Text */}
+            <div className="flex-1 text-left">
+              <p className="text-lg leading-relaxed text-gray-900 mb-4">
+                Hi, I’m Nathan Sharma! I first got involved in competitive math when I was in sixth grade. I have competed in the AMC 8, 10, and 12 and represented my school in the Houston MATHCOUNTS Chapter. Though I was enthusiastic about competitive math, I never knew where to start with my preparation. Resources offered online were vague, and competiton math classes costed hundreds if not thousands of dollars. I created Riemann Math to give students what I didn’t have – accessible, high quality math tutoring. I love math, and I wish to share my passion with other young students through this organization.
+              </p>
+
+              <p className="text-lg leading-relaxed text-gray-900">
+                I am currently a sophomore in high school who regularly competes in math competitions. I have recently started averaging 105s on recent mock AMC 12s, and I hope to qualify for the AIME next year and potentially the USAMO my senior year. I am also Vice President of the Cinco Ranch High School Math Honors Society and the Cinco Ranch High School Physics Club. I am currently preparing for the AMC, AIME, CMM, and F=MA competitions.
+              </p>
+            </div>
+
+            {/* RIGHT — Image */}
+            <div className="flex-1 flex justify-center md:justify-center">
+              <img 
+                src="nathan.png"
+                alt="Nathan Sharma"
+                className="w-full max-w-sm rounded-lg shadow-lg object-cover"
+              />
+            </div>
+
+          </div>
+        </div>
               <div className="max-w-6xl mx-auto mb-16">
           <h1 className="text-3xl font-bold text-black mb-6 text-left mt-10">
             Calendar

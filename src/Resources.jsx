@@ -18,14 +18,10 @@ function Resources() {
       </div>
 
       <main className="flex-grow max-w-6xl mx-auto p-6">
-         <p className="font-bold text-black mb-8 text-left mt-7">Welcome! Here, you'll find completely free resources for your math competition preparation.</p> 
-        <p className="font-bold text-black mb-8 text-left mt-7">The first video lectures and resources for classes will be posted by January 2nd, 2026.</p> 
-                <p className="font-bold text-black mb-8 text-left mt-7">The first competition resources, including formula sheets, practice problems, and mock exams, will be posted by February 15th, 2026.</p> 
-         
-   <p className="text-3xl font-bold text-black mb-8 text-left mt-7">Competitions</p> 
-          <p className="text-xl font-bold text-black mb-8 text-left mt-7">Coming soon!</p>
- <p className="text-3xl font-bold text-black mb-8 text-left mt-7">Classes</p> 
-       <p className="text-2xl font-bold text-black mb-8 text-left mt-7">Introductory Advanced</p> 
+        <p className="text-black mb-8 text-left mt-7">Welcome! Here, you'll find completely free resources for your math competition preparation.</p> 
+        
+        <p className="text-2xl font-bold text-black mb-8 text-left mt-7">Concepts</p> 
+        <p className="text-xl font-bold text-black mb-8 text-left mt-7">Fundamentals</p> 
         <div className="max-w-4xl mx-auto mt-10 p-5 grid grid-cols-1 md:grid-cols-2 gap-6">
           {pdfResources.map((pdf, index) => (
             <a
@@ -33,7 +29,7 @@ function Resources() {
               href={pdf.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 border rounded-lg shadow-sm hover:shadow-md hover:border-blue-500 transition-all flex justify-between items-center group"
+              className="p-6 border rounded-lg shadow-sm hover:shadow-md hover:border-blue-500 transition-all flex justify-between items-center group bg-white"
             >
               <span className="text-lg mx-3 font-medium text-gray-700 group-hover:text-blue-600">
                 {pdf.name}
@@ -42,15 +38,29 @@ function Resources() {
                 View PDF
               </span>
             </a>
-        
           ))}
-           
         </div>
-         <p className="text-2xl font-bold text-black mb-8 text-left mt-7">Intermediate Advanced</p> 
-            <p className="text-xl font-bold text-black mb-8 text-left mt-7">Coming soon!</p>
-               <p className="text-2xl font-bold text-black mb-8 text-left mt-7">Advanced</p>
-               <p className="text-xl font-bold text-black text-left">Coming soon!</p>
-        
+
+        {/* New Problem Set Section */}
+        <p className="text-2xl font-bold text-black mb-8 text-left mt-12">Practice Problem Sets</p>
+        <div className="max-w-4xl mx-auto p-5">
+          <a
+            href="https://docs.google.com/document/d/1Yqs8EZTu7BqcnemuaLqM9I0ywfFCOlazE1aU3FIy7fQ/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full md:w-1/2 p-6 border rounded-lg shadow-sm hover:shadow-md hover:border-green-500 transition-all flex justify-between items-center group bg-white"
+          >
+            <span className="text-lg mx-3 font-medium text-gray-700 group-hover:text-green-600">
+              Fundamentals Practice Problems & Solutions
+            </span>
+            <span className="text-sm bg-green-100 text-green-700 px-3 py-1 rounded-full">
+              Open Document
+            </span>
+          </a>
+        </div>
+
+       
+        <p className="text-3xl font-bold text-black mb-8 text-left">Video lectures, mock exams, and more coming soon!</p>
       </main>
 
       {/* Footer */}
