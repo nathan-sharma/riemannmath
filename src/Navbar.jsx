@@ -33,7 +33,7 @@ function Navbar() {
             Register
           </Link>
           <Link to = "/resources" className="text-black font-semibold text-xl">
-           Lectures & Resources
+          Resources
           </Link>
         </div>
 
@@ -94,7 +94,7 @@ function Navbar() {
             onClick={() => setIsOpen(false)}
             className="text-black font-semibold text-lg"
           >
-            Lectures & Resources
+            Resources
           </Link>
         </div>
       )}

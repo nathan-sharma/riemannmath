@@ -115,7 +115,7 @@ function Info() {
 
 ​
 
-<p>Day 3: Intermediate Geometry: Stewart's Theorem, Coordinate Geometry, Area Ratios, Cyclic Quadrilaterals</p>
+<p>Day 3: Intermediate Geometry: Stewart's Theorem, Linear Algebra, Area Ratios, Cyclic Quadrilaterals</p>
 
 ​
 
