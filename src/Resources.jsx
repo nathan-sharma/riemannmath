@@ -13,7 +13,7 @@ function Resources() {
 
   // 2. Mock Exams
   const mockExams = [
-    { name: "2026 Riemann Math Mock AMC 10A", url: "https://forms.gle/dQDSLfzMMBKbY87JA", active: false },
+    { name: "2026 Riemann Math Mock AMC 10A", url: "https://near.tl/sm/JllFvoaa6", active: true },
     { name: "2026 Riemann Math Mock AMC 10B", url: "https://forms.gle/Q3gzANX5vwagiY4PA", active: false },
     { name: "2026 Riemann Math Mock AMC 12A", url: "https://forms.gle/qZKdMYpF3DoJoZjy6", active: false },
     { name: "2026 Riemann Math Mock AMC 12B", url: "https://forms.gle/gq7ukpZvt85bEvqk6", active: false },
