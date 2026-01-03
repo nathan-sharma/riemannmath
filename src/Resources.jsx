@@ -44,7 +44,7 @@ function Resources() {
   ];
 
   const pdfResources3 = [
-    { name: "Intermediate Modular Arithmetic", url: "/perms-combs-introd.pdf", active: false },
+    { name: "Linear Algebra Intro", url: "/perms-combs-introd.pdf", active: false },
     { name: "Algebraic Trigonometry", url: "/algebra-introd.pdf", active: false },
     { name: "Complex Numbers", url: "/2dgeo-introd.pdf", active: false },
     { name: "Combinatorial Identities", url: "/probability-introd.pdf", active: false },
