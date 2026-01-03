@@ -80,7 +80,7 @@ function Info() {
               <p className = "mb-1"><span className = "font-bold">Prerequistes:</span> Students should have a solid understanding of modular arithmetic, combinatorics, trigonometry, geometry, and probability. </p>
               <p className = "mb-10"><span className = "font-bold">Competition math students:</span> This class will cover advanced concepts typically tested on the mid/late AIME questions and late AMC 12 questions. Students should have AMC 12 scores consistently meeting or exceeding the AIME cutoff. </p>
               <div className="mt-4 space-y-1">
-                <p>Day 1:Linear Algebra: Dot & Cross Product, Matrices, & Determinants</p>
+                <p>Day 1: Linear Algebra: Dot & Cross Product, Matrices, & Determinants</p>
                 <p>Day 2: Algebraic Trigonometry & Trig Manipulations</p>
                 <p>Day 3: Complex Numbers: Euler's Formula, Roots of Unity, Complex Conjugates, Magnitudes</p>
                 <p>Day 4: Combinatorial Identities, Advanced Counting Techniques</p>
